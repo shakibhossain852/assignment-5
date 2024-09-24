@@ -1,5 +1,5 @@
 document.getElementById('blog-nav-btn').addEventListener('click',function(){
-    window.location.href='another.html'
+    window.location.href='blog.html'
 })
 document.getElementById('pay-donate-btn').addEventListener('click',function(){
     const donateAmount =getInputValueById('donate-amount')
