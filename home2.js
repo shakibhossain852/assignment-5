@@ -18,7 +18,7 @@ document.getElementById('pay-donate-btn-2').addEventListener('click',function(){
         const oneDonate_2= document.getElementById('feni').innerText;
 
         const p =document.createElement('p');
-        p.style.width = '90%';       // Set width
+        p.style.width = '100%';       // Set width
         p.style.height = '25%';      // Set height
         p.style.border = '2px solid gray'; // Set border
         p.style.borderRadius = '15px';

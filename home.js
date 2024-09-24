@@ -22,7 +22,7 @@ document.getElementById('pay-donate-btn').addEventListener('click',function(){
 
         const oneDonate= document.getElementById('noakhali').innerText;
         const p =document.createElement('p');
-        p.style.width = '90%';       // Set width
+        p.style.width = '100%';       // Set width
         p.style.height = '25%';      // Set height
         p.style.border = '2px solid gray'; // Set border
         p.style.borderRadius = '15px';
