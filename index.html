@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-5</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body >
+  <header>
+    <nav class="bg-[#F9F7F3]">
+      <div class="flex justify-between items-center py-4 w-11/12 md:w-10/12 mx-auto ">
+        <button id="blog-nav-btn" class="btn btn-active btn-secondary bg-lime-400 border-none text-black">Blog</button>
+        <div class="flex gap-1 md:gap-2 items-center">
+           <img class="w-1/12 md:w-2/12 " src="assets/logo.png" alt="">
+           <h3 class="text-sm font-bold md:text-2xl">Donate Bangladesh</h3>
+        </div>
+        <div class="flex items-center gap-1 md:gap-2">
+            <img class="w-2/12 md:w-4/12" src="assets/coin.png" alt="">
+            <p id="recent-Balance">3990</p>
+            <p>BDT</p>
+          </div>
+      </div>
+   </nav>
+  </header>
+   <section>
+      <div class="flex justify-center mt-10 gap-5">
+        <button class="btn btn-active btn-secondary bg-lime-400 border-none text-black">Donation</button>
+        <button class="btn btn-active btn-secondary bg-lime-400 border-none text-black">History</button>
+      </div>
+   </section>
+   <section class="w-10/12 mx-auto my-10">
+    <div class="hero border-2 border-gray-200 p-5  ">
+        <div class=" flex flex-col lg:flex-row gap-5">
+          <img
+            src="assets/noakhali.png" class="w-full rounded-lg shadow-2xl" />
+          <div>
+            <div class="flex items-center">
+                <img src="assets/coin.png" alt="">
+                <p id="donated-balance" class="px-2">990</p>
+                <p>BDT</p>
+            </div>
+            <h3 class="text-lg font-bold my-4">Donate for Flood at Noakhali, Bangladesh</h3>
+            <p class="">
+                The recent floods in Noakhali have caused significant damage to homes  infrastructure. Your donation will help provide essential supplies and  to those affected by this disaster. Every contribution, big or small, makes  difference. Please join us in supporting the relief efforts and making a positive impact on the lives of those in need.
+            </p>
+            <div>
+                <input id="donate-amount" type="text" placeholder="Write Donation Amount" class="input input-bordered w-full my-4" />
+            </div>
+               <button id="pay-donate-btn" class="btn btn-primary w-full bg-lime-300 text-black border-none">Donate Now</button>
+               <div id="modal-1" class="hidden">
+                  
+                    <div  class="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center ">
+                      <div class="bg-white rounded-lg p-6 w-80 ">
+                          <h2 class="text-lg font-semibold">Success!</h2>
+                          <p>Your donation has been added.</p>
+                          <button id="close-btn-1" class="mt-4 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600">Close</button>
+                      </div>
+                    </div>
+
+               </div>
+                  
+              </div>
+            </div>
+        </div>
+    </section>
+   <section class="w-10/12 mx-auto my-10">
+    <div class="hero border-2 border-gray-200 p-5  ">
+        <div class=" flex flex-col lg:flex-row gap-5">
+          <img
+            src="assets/feni.png" class="w-full rounded-lg shadow-2xl" />
+          <div>
+            <div class="flex items-center">
+                <img src="assets/coin.png" alt="">
+                <p id="donated-balance-2" class="px-2">560</p>
+                <p>BDT</p>
+            </div>
+            <h3 class="text-lg font-bold my-4">Donate for Flood Relief in Feni,Bangladesh</h3>
+            <p class="">
+                The recent floods in Feni have devastated local communities, leading to severe disruption and loss. Your generous donation will help provide immediate aid, including food, clean water, and medical supplies, to those affected by this calamity. Together, we can offer crucial support and help rebuild lives in the aftermath of this disaster. Every contribution counts towards making a real difference. Please consider donating today to assist those in urgent need.
+            </p>
+            <div>
+                <input id="donate-amount-2" type="text" placeholder="Write Donation Amount" class="input input-bordered w-full my-4" />
+            </div>
+            <button id="pay-donate-btn-2" class="btn btn-primary w-full bg-lime-300 text-black border-none">Donate Now</button>
+            <div id="modal-2" class="hidden">
+                  
+              <div  class="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center ">
+                <div class="bg-white rounded-lg p-6 w-80 ">
+                    <h2 class="text-lg font-semibold">Success!</h2>
+                    <p>Your donation has been added.</p>
+                    <button id="close-btn-2" class="mt-4 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600">Close</button>
+                </div>
+              </div>
+
+         </div>
+          </div>
+        </div>
+      </div>
+   </section>
+   <section class="w-10/12 mx-auto my-10">
+    <div class="hero border-2 border-gray-200 p-5  ">
+        <div class=" flex flex-col lg:flex-row gap-5">
+          <img
+            src="assets/quota-protest.png" class="w-full rounded-lg shadow-2xl" />
+          <div>
+            <div class="flex items-center">
+                <img src="assets/coin.png" alt="">
+                <p id="donated-balance-3" class="px-2">400</p>
+                <p>BDT</p>
+            </div>
+            <h3 class="text-lg font-bold my-4">Aid for Injured in the Quota Movement</h3>
+            <p class="">
+                The recent Quota movement has resulted in numerous injuries and significant hardship for many individuals. Your support is crucial in providing medical assistance, rehabilitation, and necessary supplies to those affected. By contributing, you help ensure that injured individuals receive the care and support they need during this challenging time. Every donation plays a vital role in alleviating their suffering and aiding in their recovery. Please consider making a donation to support these brave individuals in their time of need.
+            </p>
+            <div>
+                <input id="donate-amount-3" type="text" placeholder="Write Donation Amount" class="input input-bordered w-full my-4" />
+            </div>
+            <button id="pay-donate-btn-3" class="btn btn-primary w-full bg-lime-300 text-black border-none">Donate Now</button>
+            <div id="modal-3" class="hidden">
+                  
+              <div  class="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center ">
+                <div class="bg-white rounded-lg p-6 w-80 ">
+                    <h2 class="text-lg font-semibold">Success!</h2>
+                    <p>Your donation has been added.</p>
+                    <button id="close-btn-3" class="mt-4 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600">Close</button>
+                </div>
+              </div>
+
+         </div>
+          </div>
+        </div>
+      </div>
+   </section>
+   <footer class="h-20 bg-[#F9F7F3]">
+
+   </footer>
+   <script src="home.js"></script>
+   <script src="home2.js"></script>
+   <script src="home3.js"></script>
+   <script src="common.js"></script>
+</body>
+</html>
